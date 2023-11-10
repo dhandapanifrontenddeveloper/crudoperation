@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.headingflex{
+  display: flex;
+  justify-content: space-between;
+  
+}
+#gridlayout{
+    width: 95%;
+    margin: auto;
+}
+.fran{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 90px;
+    color: white;
+}
+.backgrounimage{
+    background-image: url(./images/herosecimg.png);
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.formbox{
+   
+  
+    width: 450px;
+    height: 530px;
+    border: solid 2px white;
+   margin-left: 200px;
+   margin-top: 50px;
+   
+}
+
+.nmm{
+    margin-left: 30px;
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+ 
+
+}
+.name, .phoeno, .mailid, .location {
+    padding: 10px;
+    border-radius: 3px;
+    width: 350px;
+    height: 22px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: transparent;
+}
+.submitbtn{
+    padding: 10px;
+    border-radius: 3px;
+    width: 370px;
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 45PX;
+    background-color: #E6C454;
+    font-size: 25px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    
+}
+.formtxt{
+    font-family: 'Outfit', sans-serif;
+    font-size: 35px;
+    color: white;
+   font-weight: 500;
+    margin-top: 10px;
+    text-align: center;
+}
+.regdata{
+    font-family: 'Lora', serif;
+    font-size: 35px;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.newname{
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+   
+    
+}
+.newphone, .newemail, .newlocation{
+    padding: 10px;
+    
+}
+
+.deletebtn, .editbtn, .savebtn {
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: #E6C454;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    border: transparent;
+    margin-left: 5px;
+}
+.backbtn{
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: #E6C454;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    border: transparent;
+    margin-right: 30px;
+    margin-top: 30px;
+    float: right;
+}
+
+.radiobox{
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.agreebox{
+    font-size: 20px;
+    color: white;
+}
+.datavisible{
+    display: flex;
+   
+   
+    margin-top: 30px;
+}
+.regname{
+    margin-left: 35px;
+    color: #E6C454;
+}
+.regphone{
+    margin-left: 130px;
+    color: #E6C454;
+}
+.regemail{
+    margin-left: 85px;
+    color: #E6C454;
+}
+.reglocation{
+    margin-left: 100px;
+    color: #E6C454;
+}
